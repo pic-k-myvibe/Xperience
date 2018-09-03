@@ -94,7 +94,7 @@ form{
 	width: 300px;
 	margin-top: 25px;	
 }
-button{
+.button{
 	background: #4fd4be;
 	color: white;
 	width: 300px;
@@ -102,6 +102,9 @@ button{
 	border-radius: 20px;
 	margin-top: 25px;
 	border-width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .izquierda{
 	width:50%;
