@@ -63,8 +63,9 @@ body {
 }
 .icon-user {
   width: 37px;
-  height: auto;
+  height: 37px;
   margin-right: 5px;
+  border-radius: 50%;
 }
 .menu-search {
   display: flex;
@@ -135,4 +136,56 @@ footer .box img {
   width: 37px;
   height: auto;
   margin-left: 10px;
+}
+
+/*--- Perfil ---*/
+.abc {
+  width: 100vw;
+  /* height: 100vh; */
+  padding: 50px 0;
+}
+.container-p {
+  /* display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  grid-template-rows: repeat(4, 4fr);
+  justify-content: center;
+  align-items: center; */
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  background-color: white;
+  max-width: 300px;
+  width: 100%;
+}
+#profile-img {
+  width: 450px;
+  height: 350px;
+  background: url(../img/profile/Gary-face.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+  box-shadow: 0 0.5rem 1rem rgba(97, 93, 93, 0.15);
+}
+.item:nth-of-type(1){
+  background: transparent;
+}
+.item:nth-of-type(2) {
+  padding: 20px;
+  border-radius: 4px;
+}
+.ultimos {
+  display: flex;
+  justify-content: space-around;
+}
+.ultimos img {
+  width: 80px;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 0.5rem 1rem rgba(97, 93, 93, 0.15);
 }
