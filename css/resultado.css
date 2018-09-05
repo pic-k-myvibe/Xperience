@@ -122,6 +122,11 @@ body {
 .card-title:hover .icon-heart {
   opacity: 1;
 }
+a{
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+}
 /*--- footer ---*/
 footer {
   background-color: #3ca593;
