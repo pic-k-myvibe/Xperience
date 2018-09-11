@@ -123,11 +123,14 @@ body {
 .card-title:hover .icon-heart {
   opacity: 1;
 }
+<<<<<<< HEAD
 a{
   font-size: 25px;
   text-decoration: none;
   color: #fff;
 }
+=======
+>>>>>>> master
 /*--- footer ---*/
 footer {
   background-color: #3ca593;
