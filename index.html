@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="xperience.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"/>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Xperience</title>
 </head>
@@ -13,7 +14,7 @@
       <div class="menu">
         <div class="menu-izq">
          <ul>
-          <li><a href="#"><img src="https://www.logolynx.com/images/logolynx/50/50e3428738c12cc2ad7ce3d06e2820f5.png" alt=""></a></li>
+          <li><a href="index.html"><img src="https://www.logolynx.com/images/logolynx/50/50e3428738c12cc2ad7ce3d06e2820f5.png" alt=""></a></li>
           <li><a href="#">Lugares</a></li>
           <li><a href="#">Experiencias</a></li>
           </ul>
@@ -25,7 +26,20 @@
           </li>
           <li class="box-icon-user">
             <img class="icon-user" src="https://raw.githubusercontent.com/pic-k-myvibe/header/master/img/icon-user.png" alt="perfil">
-            <a href="#">Perfil</a>
+            <div class="navbar">
+              <div class="dropdown">
+                <button class="dropbtn">Inicia sesión 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div>
+                  <div class="dropdown-content">
+                    <a href="inicio.html">Inicia Sesión</a>
+                    <a href="#">Regístrate</a>
+                    <a href="#">Ayuda</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
           </li>
          </ul>
         </div>
@@ -35,7 +49,7 @@
      <section class="portada"> 
       <h1 class="h1">Xperience</h1>
       <h3 class="h3">Experiencias increibles</h3>
-      <button class="button"> Comenzar </button>
+      <button class="button"><a href="inicio.html"> Comenzar</a> </button>
      </section>
      <section class="container">
       <div class="item item-1">

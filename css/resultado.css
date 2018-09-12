@@ -109,6 +109,11 @@ body {
   background: rgba(18, 52, 113, 0.6);
   border-radius: 3px;
 }
+.card-title a{
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+}
 .card-title h2 {
   color: #fff;
   text-align: center;
@@ -123,21 +128,17 @@ body {
 .card-title:hover .icon-heart {
   opacity: 1;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 a{
   font-size: 25px;
   text-decoration: none;
   color: #fff;
 }
-=======
->>>>>>> master
-=======
->>>>>>> dev
+
 /*--- footer ---*/
 footer {
   background-color: #3ca593;
   padding: 20px;
+  margin-bottom: none;
 }
 footer .box {
   display: flex;
