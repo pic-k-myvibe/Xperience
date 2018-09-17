@@ -11,6 +11,7 @@ body{
   position: fixed;
   top: 0;
   box-shadow: 0 0.5rem 1rem rgba(97, 93, 93, 0.15);
+  z-index: 2;
 }
 .menu a {
   text-decoration: none;
@@ -65,24 +66,33 @@ body{
 .container{
   height:90vh;
   position:relative;
-  display: grid;
-  grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .resultado-izquierda{
   position: relative;
   height:auto;
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 .resultado-izquierda img{
   width:300px;
   position:absolute;
-  margin-top: 150px;
+  display:flex;
+  justify-content: center;
   border-radius: 20px;
 }
 .resultado-izquierda h2{
-  margin-top: 400px;
+  position: absolute; 
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+.resultado-derecha{
+  width: 100%;
 }
 #biblioteca{
   color:black;
